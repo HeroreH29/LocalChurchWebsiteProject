@@ -1,0 +1,389 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="../Images/logo.png"/>
+	<TITLE>San Ildefonso Parish</TITLE>
+	<link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../Bootstrap/css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" href="../Bootstrap/style.css">
+  <link rel="stylesheet" type="text/css" href="../Bootstrap/css/lightbox.min.css" />
+	
+</head>
+<style>
+	html{
+  		min-height: 500px;
+  		min-width:500px;
+	}
+ 	body{
+		height: 100%;
+	}
+	body{
+		background: url(../Images/71682020_2760782600600059_6418665071517368320_n.jpg)no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.navbar{
+		padding-left: 200px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		position: sticky;
+	}
+	.navbar-nav{
+		padding-left: 50px;
+	}
+	.navbar-brand{
+		margin-bottom: -30px;
+		margin-top: -30px;
+	}
+	.btn{
+		margin-left: 12px;
+	}
+	.dropdown:hover>.dropdown-menu{
+		display: block;
+	}
+	.ml-auto{
+		padding-right: 100px;
+	}
+	.jumbotron{
+		margin-top: 500px;
+	}
+	.media{
+		padding-left: 200px; 
+		padding-right: 100px;
+	}
+  .table, .table tr, .table td{
+    background-color: white;
+  }
+  #email{
+    padding-top: 1px;
+  }
+	#jumbo{
+		margin-bottom: -400px;
+	}
+	#jumbo1{
+		margin-bottom: -400px;
+	}
+  #clustermap{
+    border: 8px solid #FFF;
+  }
+  #minis-table{
+    text-align: center;
+    color: #FFF;
+  }
+  #menu1{
+    list-style: none;
+    padding-right: 0px;
+  }
+  ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
+  background-image: -webkit-linear-gradient(bottom, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border-radius: 10px; }
+ 
+  ::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+  ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#330867));
+  background-image: -webkit-linear-gradient(bottom, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);}
+  }
+</style>
+<body>
+  <div class="scrollbar scrollbar-lady-lips">
+  <div class="force-overflow"></div>
+</div>
+	<div id="top"></div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  	<p class="navbar-brand"><img src="../Images/logo.png" alt="logo" width="65" height="65"/></p>
+ 	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  	</button>
+  	<div class="collapse navbar-collapse" id="navbarNav">
+    
+
+     <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="frontpage.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class = "nav-link active" href="secondpage.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          People
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="people.html">Parish Pastor</a>
+          <a class="dropdown-item" href="office.html">Office Staff</a>
+
+          </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class = "nav-link active" href="ministries.html">Ministries</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="gallery.html">Galleries</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" id="fb">
+        	<a class="nav-link" href="https://web.facebook.com/sipmakati/?_rdc=1&_rdr"><img src="../Images/facebook.png" width="40" height="40"></a>
+      </li>
+      <li class="nav-item" id="twitter">
+        	<a class="nav-link" href="https://twitter.com/sipmakati"><img src="../Images/twitter.png" width="40" height="40"></a>
+      </li>
+      <li class="nav-item" id="instagram">
+        	<a class="nav-link" href="https://www.instagram.com/sipmakati/?igshid=qgb37ii3hkmh"><img src="../Images/instagram.png" width="40" height="40"></a>
+      </li>
+      <li class="nav-item dropdown" id="email">
+        <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../Images/email.png" width="40" height="40"></a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">sipoffice@yahoo<br>.com.ph</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<nav class="navbar fixed-top navbar-light" style="width: 500px;position: fixed;z-index: 1;top: 100px;left: 10px;background-color: rgba(255,255,255,0.4);overflow-x: hidden;padding:0;">
+  
+  <div class="list-group list-group-horizontal-xl" style="background-color: rgba(255,255,255,0.4);">
+  <a href="#ministry" class="list-group-item list-group-item-action"style="background-color: rgba(255,255,255,0.4);">Ministries</a>
+  <a href="#coordinator" class="list-group-item list-group-item-action"style="background-color: rgba(255,255,255,0.4);">Area Coordinators</a>
+  <a href="#organ" class="list-group-item list-group-item-action"style="background-color: rgba(255,255,255,0.4);">Ministries and Organization</a>
+</div>
+</nav>
+
+
+  <div class="text-center" style="padding: 10px;">
+      <figure class="figure">
+      <a href="../Images/IMG_20191007_135421.jpg" data-lightbox="clustermap"><img src="../Images/IMG_20191007_135421.jpg" class="figure-img img fluid rounded" height="400px" id="clustermap"></a>
+      <p id="ministry">  </p>
+      <figcaption style="color: black" class="figure-caption"><b>CLUSTER MAP OF AREA COORDINATORS<br>(CLICK TO ENLARGE)</b></figcaption>
+    </figure>
+    </div>
+<div id="minis-table">
+<table class="table">
+  <thead>
+    <tr style="background-color: gray">
+      <th scope="col">MINISTRY</th>
+      <th scope="col">NAME</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Coordinator</th>
+      <td>M. Reyes</td>
+    </tr>
+    <tr>
+      <th scope="row">A.C/WOR/Archcon</th>
+      <td>C. Sugue</td>
+    </tr>
+    <tr>
+      <th scope="row">Secretary</th>
+      <td>A. Diel</td>
+    </tr>
+    <tr>
+      <th scope="row">Family Life/PnP Pondo ng Pinoy</th>
+        <td>L. Gonzaga/M. Rafols</td>
+    </tr>
+    <tr>
+      <th scope="row">SERVICE</th>
+      <td>Baby San J.</td>
+    </tr>
+    <tr>
+      <th scope="row">Cathechetical Min.</th>
+      <td>L. Bautista</td>
+    </tr>
+    <tr>
+      <th scope="row">Youth</th>
+      <td>Baby San J.</td>
+    </tr>
+    <tr>
+      <th scope="row">BEC</th>
+      <td>L. Francisco</td>
+    </tr>
+    <tr>
+      <th scope="row">Music Ministry</th>
+      <td>D. Lim</td>
+    </tr>
+    <tr>
+      <th scope="row">Finance Council</th>
+      <td>H. Morales</td>
+    </tr>
+    <tr>
+      <th scope="row" id="coordinator">Ecology Ministry</th>
+      <td>A. Caranto</td>
+    </tr>
+    <tr>
+      <th scope="row">MHC Chapel</th>
+      <td>Atty. S.G. Hildawa</td>
+    </tr>
+    <div class="text-center">
+    <thead>
+      <tr style="background-color: gray">
+        <th scope="col" >AREA COORDINATORS</th>
+        <th scope="col">&emsp;&emsp;&emsp;</th>      
+      </tr>
+    </thead>
+    <tr style="background-color: darkgray">
+      <th scope="row">CLUSTER A</th>
+      <td>E. Punzalan</td>
+    </tr>
+    <tr style="background-color: #FFFF33">
+      <th scope="row">Area 1</th>
+      <td>J. Ramos</td>
+    </tr>
+    <tr style="background-color: #f8d568">
+      <th scope="row">Area 3</th>
+      <td>E. Rebenque</td>
+    </tr>
+    <tr style="background-color: #ADD8E6">
+      <th scope="row">Area 5</th>
+      <td>A. Dadivas</td>
+    </tr>
+    <tr style="background-color: darkgray">
+      <th scope="row">CLUSTER B</th>
+      <td>A. Vasco</td>
+    </tr>
+    <tr style="background-color: #FFC0CB">
+      <th scope="row">Area 2</th>
+      <td>B. Jacinto</td>
+    </tr>
+    <tr style="background-color: lightgreen">
+      <th scope="row">Area 4</th>
+      <td>C. Sulla</td>
+    </tr>
+    <tr style="background-color: #EE82EE">
+      <th scope="row">Area 6</th>
+      <td>Dra. D. Claudio</td>
+    </tr>
+    <tr style="background-color: darkgray">
+    <th scope="row">CLUSTER C</th>
+      <td>E. Reyes</td>
+    </tr>
+    <tr style="background-color: #FF69B4">
+      <th scope="row">Area 7</th>
+      <td>A. Brual</td>
+    </tr>
+    <tr style="background-color: #FFFF66">
+      <th scope="row">Area 8</th>
+      <td>Z. Guadalupe</td>
+    </tr>
+    <tr style="background-color: #654321">
+      <th scope="row">Area 9</th>
+      <td>D. Lumawag</td>
+    </tr>
+    <tr style="background-color: darkgray">
+    <th scope="row">CLUSTER D</th>
+      <td>A. Ansay</td>
+    </tr>
+    <tr style="background-color: blue">
+      <th scope="row">Area 10</th>
+      <td>F. Carlos</td>
+    </tr>
+    <tr style="background-color: #DA70D6">
+      <th scope="row" id="organ">Area 11</th>
+      <td>F. Mateo</td>
+    </tr>
+    <tr style="background-color: #FFB6C1">
+      <th scope="row">Area 12</th>
+      <td>B. Delmar</td>
+    </tr>
+    <thead>
+      <tr style="background-color: gray">
+        <th scope="col" >MINISTRIES AND ORGRANIZATIONS</th>
+        <th scope="col">&emsp;&emsp;&emsp;</th>
+      </tr>
+    </thead>
+    <tr>
+      <th scope="row">EMHC</th>
+      <td>D. San Juan</td>
+    </tr>
+    <tr>
+      <th scope="row">LCG/Finance Comm.</th>
+      <td>V. Glorioso</td>
+    </tr>
+    <tr>
+      <th scope="row">KOA</th>
+      <td>J. Tanedo</td>
+    </tr>
+    <tr>
+      <th scope="row">Mother Butler's Guild</th>
+      <td>L. Rigor</td>
+    </tr>
+    <tr>
+      <th scope="row">Legion of Mary</th>
+      <td>E. Urbina</td>
+    </tr>
+    <tr>
+      <th scope="row">CWL</th>
+      <td>C. Makasakit</td>
+    </tr>
+    <tr>
+      <th scope="row">SICC</th>
+      <td>D. Atok</td>
+    </tr>
+    <tr>
+      <th scope="row">LOP</th>
+      <td>L. Paulino</td>
+    </tr>
+    <tr>
+      <th scope="row">CFC</th>
+      <td>T. & F. Carlos</td>
+    </tr>
+    <tr>
+      <th scope="row">SFC</th>
+      <td>G. Serano</td>
+    </tr>
+    <tr>
+      <th scope="row">LCD Operator</th>
+      <td>Y. Sumagaysay</td>
+    </tr>
+  </div>
+  </tbody>
+</table>
+</div>
+<div class="card-footer text-muted bg-dark clearfix">
+	<nav class="navbar navbar-expand-lg" style="float:right">
+	<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="frontpage.html"><font color="white">Home</font></a></li>
+				<li class="nav-item"><a class="nav-link" href="secondpage.html"><font color="white">About</font></a></li>
+				<li class="nav-item"><a class="nav-link" href="#top"><font color="white">Ministries</font></a></li>
+				<li class="nav-item"><a class="nav-link" href="gallery.html"><font color="white">Galleries</font></a></li>
+				<li class="nav-item"><a class="nav-link" href="contact.html"><font color="white">Contact</font></a></li>
+	</ul>
+	</nav>
+<div>
+	<ul>
+				<p><font color="white"><font color="grey">San Ildefonso Parish Address</font>
+	<br>A. Arnaiz Ave. M. Reyes St. Brgy. Pio del Pilar, Makati
+	<br>Call (02) 843 7351 
+	<br><font color="grey">©All Rights Reserved, 2019</font>
+	<br>Made by: Francisco, Daniel Ivan : Legaspi, Hezekiah : Barrientos, John Ashly  
+	</ul>  
+</div>
+</div>
+
+<script src="../Bootstrap/js/jquery.min.js"></script>
+<script src="../Bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../Bootstrap/js/lightbox-plus-jquery.min.js"></script>
+<script> lightbox.option({
+  'resizeDuration':150,
+  'wrapAround': true
+})
+</script>
+</body>
+</html>
